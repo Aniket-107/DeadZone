@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "DeadZone",
+    "slug": "deadzone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#07090E",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.aniket107.deadzone"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "splash": {
+      "backgroundColor": "#07090E"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a0a48696-8344-41dd-bd17-296a7f8982d3"
+      }
+    }
+  }
+}
